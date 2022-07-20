@@ -100,7 +100,7 @@ return $info;
  } 
  
 
-public function get_separate_program_info($select_value="*",$program_id){
+public function get_separate_program_info($program_id, $select_value="*"){
   $sql="select $select_value from program where id=$program_id";
   $info=$this->db->get_sql_array($sql);
   if(isset($info[0]))$info=$info[0];
