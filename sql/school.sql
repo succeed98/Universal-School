@@ -432,7 +432,7 @@ CREATE TABLE `student` (
   `school` text,
   `ssc_rool` int(11) DEFAULT NULL,
   `ssc_reg` int(11) DEFAULT NULL,
-  `ssc_board` text,
+  `ssc_board` text DEFAULT NULL,
   `ssc_result` double DEFAULT NULL,
   `date` datetime DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;

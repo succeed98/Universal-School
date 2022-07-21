@@ -52,8 +52,8 @@ $db=new database();
 </div>
 
 </div>
-<div id="particles-js"></div>
-</div>
+<!-- <div id="particles-js"></div>
+</div> -->
 
 </body>
 </html>

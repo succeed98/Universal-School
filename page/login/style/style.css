@@ -4,9 +4,9 @@
 body, html {
 	
 	background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
-	background:black;
+	background:#fff;
 	position: relative;
-	background-color: #000000;
+	background-color: #fff;
 
 }
 
